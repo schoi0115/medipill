@@ -1,0 +1,294 @@
+* {
+    font-family: Comfortaa;
+  }
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+.gauge {
+    text-align: center;
+    padding: 10px;
+    height:  680px;
+    font-family: Comfortaa;
+}
+
+.gauge1 {
+    text-align: center;
+    font-family: Comfortaa;
+}
+.gauge3{
+    height: 1800px;
+   
+}
+.gauge4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 100px;
+    background-image: url('./components/imgaes/Clock.png');
+    background-repeat: no-repeat;
+    background-position-x: 955px;
+    background-position-y: 130px;
+    background-attachment: fixed;
+    background-size: 800px;
+    margin-top:80px;
+    height: 3000px;
+  }
+  .gauge5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: transparent;
+  }
+.mdform{
+    margin-top:80px;
+  }
+.mapping{
+    border-radius: 50%;
+}
+.frontpage{
+    margin-top:80px; 
+}
+.home{
+    margin-top:80px;
+    background-color:white;
+    
+}
+nav{
+    position:fixed;
+    margin-top:-80px;
+    background-color:rgb(69, 100, 86);
+    height:80px;
+    width: 1900px;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 30px;
+    left:5px;
+    opacity: 0.9;
+}
+
+.c1Style {
+    font-family: Comfortaa;
+    background: rgb(107, 164, 211);
+    color: white;
+    padding: 1.5rem;
+    animation: fadeIn 3s;
+    text-align: center;
+    border-radius: 40px;
+    opacity: 0.9;
+  }
+
+.signupNav {
+    background: rgb(52, 54, 161);
+    padding: 1rem;
+    text-align: center;
+    animation: fadeIn 3s;
+    border-radius: 40px;
+    opacity: 0.9;
+}
+
+.signupNav :hover{
+    animation: fadeIn 1.5s;
+    color: white;
+    background: rgb(151, 149, 184);
+    border-radius: 5px;
+}
+
+.signup{
+    color:white;
+    text-align: center;
+    width: 40px;
+    font-weight: bold;
+}
+.signup1{
+    margin-top:80px;
+    line-height: 20px;
+}
+
+.frontbg {
+    text-align: center;
+    color: white;
+    padding: 22rem;
+    background-image: url('./components/imgaes/baricon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    animation: fadeIn 2s;
+}
+
+.signupNavbt{
+    background: rgb(52, 54, 161);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    animation: fadeIn 3s;
+    border-radius: 40px;
+    opacity: 0.9;
+    font-size: x-small;
+}
+.font {
+    font-family: Comfortaa;
+
+}
+.fontbtn{
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.passwordmargin {
+    margin-left: 40px;
+}
+.logoutbtn{
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: 12px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgb(189, 189, 189);
+    margin-top: 10px;
+    font-size:17px;
+}
+
+.inputstyle {
+    border-radius: 5px;
+}
+
+.fontbtn1{
+ margin-bottom: 40px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fontbtn2{
+  
+       padding: 5px;
+       border: none;
+       background-color: rgb(100, 148, 103);
+       border-radius: 5px;
+
+     color: white;
+       width: 800px;
+       height: 50px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       margin-top: 40px;
+       margin-left: -800px;
+   }
+
+.fontbtn3{
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size:small;
+   }
+
+   .cardInd{
+  
+    padding: 5px;
+    width: 500px;
+    margin: 1em;
+    line-height: 1.2;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -650px;
+    margin-top: 50px;
+    background-image: url('./components/imgaes/cardbg.png');
+    background-repeat: no-repeat;
+    background-size: 14cm;
+    background-position-y: -0.6cm;
+ 
+   }
+
+
+   .inSignup1{
+    margin-top: 120px;
+    color: black;
+    background-image: url('./components/imgaes/Homebg1.png');
+    background-position-y: 1cm;
+    background-position-x: 1cm;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.inSignup{
+    line-height: 2.5;
+    margin-top: -110px;
+    
+}
+.inSignup a{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.inSignup1 form{
+    line-height: 3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inSignup1 input{
+    width: 15%;
+    padding: 4px 20px;
+    margin: 8px 15px;
+    border-radius: 10px;
+    
+}
+
+.inSignup2{
+    line-height: 3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inSignup2 input{
+    border-radius: 5px;
+    padding: 4px 20px;
+    margin: 8px 15px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+
+.inSignup2 textarea{
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 15cm;
+    height: 3cm;
+}
+
+
+alert{
+    
+}

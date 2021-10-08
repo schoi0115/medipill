@@ -1,0 +1,17 @@
+* {
+    font-family: Comfortaa;
+  }
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+.home {
+    background-image: url('./imgaes/essencebg.png');
+    background-repeat:repeat-x;
+    background-size: 50cm;
+    height: 5000px;
+
+    background-position-y: 205px;
+
+    border-radius: 17px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }

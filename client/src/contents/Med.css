@@ -1,0 +1,44 @@
+* {
+    font-family: Comfortaa;
+  }
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+input{
+    background-color: white;
+}
+
+.mdform{
+background-image: url('../components/imgaes/Background.png');
+background-repeat: no-repeat;
+background-position-x: 5cm;
+background-position-y: -2cm;
+height: 200cm;
+border-radius: none;
+
+}
+.arr1{
+    margin-bottom: 50px;
+
+}
+h1{
+    font-family: Comfortaa;
+}
+
+.doseLabel{
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+
+.medschelude{
+    column-count: 3;
+    border-style: groove;
+    font-weight: bold;
+ 
+   
+}
+
+.center{
+    margin-left: 200px;
+}
+

@@ -1,0 +1,103 @@
+* {
+
+    font-family: Comfortaa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Comfortaa;
+     
+  }
+
+
+  body {
+    background-color: white;
+    
+    
+  }
+  .countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 500px;
+    background-color: white;
+    
+
+  }
+
+  .countdown p{
+    padding: 10px;
+    text-shadow: 2px 2px lightgrey;
+
+  }
+
+  .countdown article{
+    margin: 40px;
+  }
+
+
+  .clock{
+
+    
+    font-family: Comfortaa;
+    position: fixed;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 800px;
+    text-shadow: 5px 5px lightgrey;
+    
+    top: 63%;
+  }
+
+
+  .toggle1{
+    border-radius: 10px;
+    background: #ffffff;
+    top: 5px;
+    left: 20px;
+    font-size: x-large;
+  }
+  .toggle2{
+    border-radius: 10px;
+    background-color: #EF476F;
+    top: 5px;
+    left: 20px;
+    font-size: x-large;
+
+  }
+
+  .Countdown {
+    font-size: 50px;
+  }
+
+  
+  .loading{
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, -20%);
+
+  }
+
+  .spinner{ 
+
+
+    animation: spin 0.8s linear infinite;
+
+
+
+  }
+
+  @keyframes spin{
+    to {transform: rotate(360deg)}
+  }
