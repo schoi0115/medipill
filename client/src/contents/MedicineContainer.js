@@ -12,7 +12,7 @@ function MedicineContainer({user, setErrors, setMedicine, medicine, getTheData, 
     fetch("/medicines")
       .then((res) => res.json())
       .then(setMedicine);
-      getTheData()
+  
   }, [])
 
   function onUpdate(id){

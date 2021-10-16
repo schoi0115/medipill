@@ -20,17 +20,6 @@ function App() {
   const [errors, setErrors] = useState(false);
   const [medicine, setMedicine] = useState([]);
 
-
-  useEffect(() => {
-    fetch("/me").then((r) => {
-      if (r.ok) {
-        r.json()
-        .then((user) => setUser(user));
-        getTheData()
-      }
-    });
-  }, []);
-
   const getTheData = async () => {
     try {
       const response = await fetch("medicines");
@@ -41,6 +30,21 @@ function App() {
       console.log(err);
     }
   };
+
+  useEffect(() => {
+    fetch("/me").then((r) => {
+      if (r.ok) {
+        r.json()
+        .then((user) => setUser(user));
+        
+      }
+      
+      getTheData()
+      
+    });
+  }, []);
+  
+
 
   function onLogOut() {
     setMedicine([]);
@@ -54,8 +58,10 @@ function App() {
       } else {
         return medicine;
       }
+      
     });
     setMedicine(updatedMedicineArray);
+    
   }
 
   return (

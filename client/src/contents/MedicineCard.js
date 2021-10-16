@@ -39,7 +39,6 @@ function MedicineCard({ name, volume, memo, taken, maxdose, id, current_volume, 
     })
     .then((r) => r.json())
     .then((del) => onUpdate(del.id))
-    getTheData()
   }
 
  function btnConn2(){
@@ -54,7 +53,6 @@ function MedicineCard({ name, volume, memo, taken, maxdose, id, current_volume, 
   })
     .then((r) =>  r.json())
     .then((data) => onUpdate(data))    
-    getTheData()
  }
 
  function btnConn3(){
@@ -69,7 +67,6 @@ function MedicineCard({ name, volume, memo, taken, maxdose, id, current_volume, 
 })
   .then((r) =>  r.json())
   .then((data) => onUpdate(data))    
-  getTheData()
 }
 
 
@@ -84,7 +81,7 @@ function MedicineCard({ name, volume, memo, taken, maxdose, id, current_volume, 
     body: JSON.stringify({
       volume: volume - maxdose,
   }),
-},[])
+})
   .then((r) =>  r.json())
   .then((data) => onUpdate(data))    
 

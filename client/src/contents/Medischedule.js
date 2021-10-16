@@ -1,9 +1,9 @@
 import "../App.css";
 import "./Med.css";
 
-import React from "react";
+import React, { useEffect } from "react";
 
-function Medshecudle({name, dose, current_volume, getTheData}){
+function Medshecudle({name, dose, current_volume}){
 
 
 const dosetimer = () => {
@@ -19,7 +19,7 @@ const dosetimer = () => {
 
 }
 
-
+console.log(dose)
 return(
     <div className="medschelude">
     <table className="center">
